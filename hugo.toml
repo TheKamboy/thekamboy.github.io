@@ -9,7 +9,7 @@ copyrights = "Kameron Clouser"
 defaultList = "global"
 paginationLen = 3
 projectsURL = "https://github.com/TheKamboy"
-brief_about = "<center>Projects? Programming? You know it!</center>"
+brief_about = "<center>Projects? Programming? You know it! 🙂👍</center>"
 
 [[menu.primary]]
 name = "Home"
