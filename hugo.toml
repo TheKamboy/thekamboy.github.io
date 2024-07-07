@@ -1,12 +1,34 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "KamboyDev's Cool Website"
 theme = 'kaslaanka'
 
 [params]
 sitename = "Kaslaanka Theme"
-copyrights = "John Doe"
+copyrights = "Kameron Clouser"
 defaultList = "global"
 paginationLen = 3
 projectsURL = "https://example.com"
 brief_about = "<center>Kaslaanka theme demo made with ❤️️</center>"
+
+[[menu.primary]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.primary]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[menu.primary]]
+name = "Subscribe"
+url = "/index.xml"
+weight = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      wrapStandAloneImageWithinParagraph = false
+      [markup.goldmark.parser.attribute]
+        block = true
