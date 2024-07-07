@@ -7,7 +7,7 @@
     <description>Recent content on KamboyDev&#39;s Cool Website</description>
     
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Jul 2024 20:07:45 -0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Jul 2024 12:27:38 -0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
       <link>http://localhost:1313/blog/en/my-first-post/</link><pubDate>Sat, 06 Jul 2024 20:07:45 -0700</pubDate>
@@ -17,6 +17,16 @@
 Second Heading Third Fourth Some style testing.
 bro notch needs to get on this asap how am i supposed to play my infinite lego game
 Some guy in the Modern Beta SMP Discord Server First item Second item Third item First item Second item Third item code</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>http://localhost:1313/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>I am a teenage furry trying to be a programmer for video games.
+I am a Sophomore, and I&amp;rsquo;m hoping I will be able to get out of High School without dropping out.
+My favorite programming fonts Cascadia Code: A pretty good ligatured font for a not so great company. Mononoki: The only font that I have seen that looks smooth with bad font rendering from the not so great company above.</description>
     </item>
     
   </channel>
