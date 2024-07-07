@@ -10,8 +10,7 @@
     <lastBuildDate>Sat, 06 Jul 2024 20:07:45 -0700</lastBuildDate><atom:link href="http://localhost:1313/categories/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/blog/en/my-first-post/</link>
-      <category>test</category><pubDate>Sat, 06 Jul 2024 20:07:45 -0700</pubDate>
+      <link>http://localhost:1313/blog/en/my-first-post/</link><pubDate>Sat, 06 Jul 2024 20:07:45 -0700</pubDate>
       
       <guid>http://localhost:1313/blog/en/my-first-post/</guid>
       <description>Welcome to my Website! I will be posting about my projects, and other things. This first post will serve as a test of how markdown is displayed on the website (so I can fix CSS issues).

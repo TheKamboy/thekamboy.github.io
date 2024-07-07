@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://thekamboy.github.io/'
 languageCode = 'en-us'
 title = "KamboyDev's Cool Website"
 theme = 'kaslaanka'
@@ -32,3 +32,11 @@ weight = 3
       wrapStandAloneImageWithinParagraph = false
       [markup.goldmark.parser.attribute]
         block = true
+
+[[module.mounts]]
+source = 'static'
+target = 'static'
+
+[[module.mounts]]
+source = 'images'
+target = 'static/images'

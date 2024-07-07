@@ -31,7 +31,7 @@ Some **style** *testing*.
 
 [check out the modern beta smp server for minecraft](https://modernbeta.org/)
 
-![mario love spaget](https://onedrive.live.com/embed?resid=96f6f21aeb3bea41%2164893&authkey=%21ABO0yS2DjtT7DKE&width=1360&height=768 "mario love spaget")
+![mario love spaget](/images/2023-04-16.png "mario love spaget")
 
 | Syntax | Description |
 | ----------- | ----------- |
