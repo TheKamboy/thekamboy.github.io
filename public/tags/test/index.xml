@@ -2,17 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 
   <channel>
-    <title>Posts on KamboyDev&#39;s Cool Website</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on KamboyDev&#39;s Cool Website</description>
+    <title>Test on KamboyDev&#39;s Cool Website</title>
+    <link>http://localhost:1313/tags/test/</link>
+    <description>Recent content in Test on KamboyDev&#39;s Cool Website</description>
     
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Jul 2024 20:07:45 -0700</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Jul 2024 20:07:45 -0700</lastBuildDate><atom:link href="http://localhost:1313/tags/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link><pubDate>Sat, 06 Jul 2024 20:07:45 -0700</pubDate>
+      <link>http://localhost:1313/blog/en/my-first-post/</link>
+      <category>test</category><pubDate>Sat, 06 Jul 2024 20:07:45 -0700</pubDate>
       
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/blog/en/my-first-post/</guid>
       <description>Welcome to my Website! I will be posting about my projects, and other things. This first post will serve as a test of how markdown is displayed on the website (so I can fix CSS issues).
 Second Heading Third Fourth Some style testing.
 bro notch needs to get on this asap how am i supposed to play my infinite lego game

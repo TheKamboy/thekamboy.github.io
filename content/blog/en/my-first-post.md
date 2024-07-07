@@ -2,6 +2,7 @@
 title = 'My First Post'
 date = 2024-07-06T20:07:45-07:00
 draft = false
+categories = ["test"]
 +++
 
 # Welcome to my Website!

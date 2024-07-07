@@ -1,68 +1,130 @@
-{{ define "main" }}
-{{ partial "header" . }}
+<!doctype html>
+<html lang="en-us">
+
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Articles archive - KamboyDev&#39;s Cool Website </title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="referrer" content="no-referrer">
+    <meta property="og:site_name" content="KamboyDev&#39;s Cool Website">
+    <meta property="og:locale" content="en_US">
+
+    <meta property="og:url" content="http://localhost:1313/blog/">
+  <meta property="og:site_name" content="KamboyDev&#39;s Cool Website">
+  <meta property="og:title" content="Articles archive">
+  <meta property="og:description" content="articles archive">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <meta name="twitter:title" content="Articles archive">
+    <meta name="twitter:description" content="articles archive">
+    
+
+    <meta name="twitter:image" content="http://localhost:1313/">
+    <link rel="canonical" href="http://localhost:1313/blog/">
+    
+    <link rel="stylesheet" href="/css/site.min.css">
+    <link rel="stylesheet" href="http://localhost:1313/css/custom.css">
+
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/blog/index.xml" title="KamboyDev's Cool Website">
+    </head>
+
+  <body>
+    
+<div class="mt-xl header">
+  <header>
+    <div class="container">
+      <div class="row justify-content-center">
+	<div class="col-auto">
+	  <a href="http://localhost:1313/" style="display: contents">
+	    <h1 class="name text-center">KamboyDev&#39;s Cool Website</h1>
+	  </a>
+	</div>
+      </div>
+      <div class="row justify-content-center">
+	<div class="nav justify-content-center">
+	  <ul>
+	    
+	    <li class="nav-item justify-content-center mx-auto"> 
+	      <a class="nav-link" href="/">
+		
+		Home
+	      </a>
+	    </li>
+	    
+	    <li class="nav-item justify-content-center mx-auto"> 
+	      <a class="nav-link" href="/about">
+		
+		About
+	      </a>
+	    </li>
+	    
+	    <li class="nav-item justify-content-center mx-auto"> 
+	      <a class="nav-link" href="https://www.youtube.com/channel/UCtW2DfcLBqNRX5Ih3LF8GHw">
+		
+		Subscribe
+	      </a>
+	    </li>
+	    
+	    
+	  </ul>
+	</div>
+      </div>
+    </div>
+  </header>
+</div>
+
 <div class="content">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-sm-12 col-lg-8">
-	<h1 class="mx-0 mx-md-4 blog-post-title">{{ .Title }}</h1>
-	<div class="meta-data meta">
-	  {{ if .Params.brief }}
-	  <div class="d-none d-md-inline meta-brief">
-	    {{ .Params.brief }}
-	  </div>
-	  {{ end }}
-	  {{ if not .Params.noauthor }}
-	  {{ if .Params.author }}
-	  <span class="author meta-data" title="{{ .Params.Author }}">
-	    {{ .Params.author }}
-	  </span>
-	  {{ end }}
-	  {{ end }}
-	  <span class="date middot meta-data" title='{{ .Date.Format "Mon Jan 2 2006 15:04:05 MST" }}'>
-	    {{ .Date.Format (.Site.Params.dateform | default "2006-01-02") }}
-	  </span>
-	  <span class="reading-time middot meta-data">
-	    {{ .ReadingTime }} min read
-	  </span>
-	  <a class="middot meta-data" href="{{ .Permalink | absURL }}">Permalink</a>
-	  <div class="d-none d-md-inline tags">
-	    <ul class="list-unstyled d-inline">
-	      {{ range .Params.tags}}
-	      <li class="d-inline" style="margin-right: 0.5rem">
-		<a href="{{ "tags/" | relLangURL }}{{ . | urlize }}">
-		  #{{ . }}
-		</a>
-	      </li>
-	      {{ end }}
-	    </ul>
-	  </div>
+	<div class="markdown">
+	  
+
 	</div>
-	<div class="markdown blog-post-content">
-	  {{ partial "content" . }}
-	</div>
-	{{ if .Site.Params.posts_navigation }}
-	<div class="navigation">
-	  <div class="row">
-	    <div class="col-12 col-lg-6">
-	      {{ if .PrevInSection }}
-	      <div class="mx-0 mx-md-4 mt-4 text-left">
-		<a href="{{ .PrevInSection.Permalink }}">« {{ .PrevInSection.Title }}</a>
+	<div class="mx-0 mx-md-4 posts">
+	  <h1>Articles archive</h1>
+	  <hr>
+	  <ul class="list-unstyled">
+	    
+	    <li>
+	      <h2 class="meta-title">
+		<a href="http://localhost:1313/blog/en/my-first-post/">My First Post</a>
+	      </h2>
+	      <div class="meta-data">
+		<span class="meta-data">
+		  
+		  [ test ]
+		  
+		</span>
+		<time class="meta-data middot" datetime="2024-07-06">2024/07/06</time>
+		<span class="meta-data middot">
+		  
+		</span>
 	      </div>
-	      {{ end }}
-	    </div>
-	    <div class="col-12 col-lg-6">
-	      {{ if .NextInSection }}
-	      <div class="mx-0 mx-md-4 mt-4 text-right">
-		<a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }} »</a>
-	      </div>
-	      {{ end }}
-	    </div>
-	  </div>
+	    </li>
+	    
+	  </ul>
 	</div>
-	{{ end }}
       </div>
-      {{ partial "footer" . }}
     </div>
+    <hr class="footer-linebreak">
+<div class="container">
+  <span class="row justify-content-center meta" id="footer">
+    Copyright © 2024 Kameron Clouser
+  </span>
+  <script defer src="http://localhost:1313/js/custom.js"></script>
+
+</div>
+
   </div>
 </div>
-{{ end }}
+
+  </body>
+
+</html>

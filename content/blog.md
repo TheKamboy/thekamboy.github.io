@@ -1,6 +1,5 @@
 +++
-title = 'Blog'
-draft = true
+layout = "blog"
 +++
 
 test
