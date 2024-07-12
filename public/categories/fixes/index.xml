@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
   <channel>
     <title>Fixes on KamboyDev&#39;s Cool Website</title>
     <link>http://localhost:1313/categories/fixes/</link>
     <description>Recent content in Fixes on KamboyDev&#39;s Cool Website</description>
-    <generator>Hugo</generator>
+    
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Jul 2024 12:27:38 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/fixes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Jul 2024 12:27:38 -0700</lastBuildDate><atom:link href="http://localhost:1313/categories/fixes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fixed About Link</title>
-      <link>http://localhost:1313/blog/en/fixed-about-link/</link>
-      <pubDate>Sun, 07 Jul 2024 12:27:38 -0700</pubDate>
+      <link>http://localhost:1313/blog/en/fixed-about-link/</link><pubDate>Sun, 07 Jul 2024 12:27:38 -0700</pubDate>
+      
       <guid>http://localhost:1313/blog/en/fixed-about-link/</guid>
-      <description>You should be able to click the About link now.&#xA;Also, I updated the site a bit more to remove placeholder text from the theme I used for the website.</description>
+      <description>You should be able to click the About link now.
+Also, I updated the site a bit more to remove placeholder text from the theme I used for the website.</description>
     </item>
+    
   </channel>
 </rss>

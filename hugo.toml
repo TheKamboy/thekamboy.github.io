@@ -27,7 +27,7 @@ url = "https://www.github.com/thekamboy"
 weight = 3
 
 [[menu.primary]]
-name = "Subscribe to YT"
+name = "Subscribe"
 url = "https://www.youtube.com/channel/UCtW2DfcLBqNRX5Ih3LF8GHw"
 weight = 4
 
