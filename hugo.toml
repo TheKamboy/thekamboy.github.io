@@ -1,10 +1,10 @@
 baseURL = 'https://thekamboy.github.io/'
 languageCode = 'en-us'
-title = "KamboyDev's Cool Website"
+title = "Kamboy Dev's Cool Website"
 theme = 'kaslaanka'
 
 [params]
-sitename = "KamboyDev's Cool Website"
+sitename = "Kamboy Dev's Cool Website"
 copyrights = "Kameron Clouser"
 defaultList = "global"
 paginationLen = 4

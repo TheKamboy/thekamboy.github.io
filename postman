@@ -19,14 +19,15 @@ openpost() {
   file=$(gum file)
 
   if [ -n "$file" ]; then
-    nvim $file
+    $fileeditor $file
   fi
 
   cd $locationofpostman
 }
 
 mainMenu() {
-  menu=$(gum choose --header="Postman" "Create Post" "Open Post" "Exit")
+  echo ""
+  menu=$(gum choose --header="Postman" "Exit" "Create Post" "Open Post" "Preview Website" "Open Website File" "Open Lazygit")
 
   if [ "$menu" = "Exit" ]; then
     shouldquit=true
@@ -34,6 +35,17 @@ mainMenu() {
     makenewpost
   elif [ "$menu" = "Open Post" ]; then
     openpost
+  elif [ "$menu" = "Preview Website" ]; then
+    hugo server -D
+    echo ""
+  elif [ "$menu" = "Open Website File" ]; then
+    file=$(gum file)
+
+    if [ -n "$file" ]; then
+      $fileeditor $file
+    fi
+  elif [ "$menu" = "Open Lazygit" ]; then
+    lazygit
   fi
 }
 
