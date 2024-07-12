@@ -17,3 +17,5 @@ The name *Insert Randomness* may seem stupid, **but** it's to show that the game
 - Being On All PC Platforms (Windows, Mac, Linux)
 
 [Here is a link to the GitHub Page, but it's in it's early stages.](https://github.com/TheKamboy/insert_randomness) 
+
+![gif](https://raw.githubusercontent.com/TheKamboy/insert_randomness/master/out.gif "Demo Gif")
