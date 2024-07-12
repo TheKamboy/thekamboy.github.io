@@ -7,7 +7,7 @@ theme = 'kaslaanka'
 sitename = "KamboyDev's Cool Website"
 copyrights = "Kameron Clouser"
 defaultList = "global"
-paginationLen = 3
+paginationLen = 4
 projectsURL = "https://github.com/TheKamboy"
 brief_about = "<center>Projects? Programming? You know it! 🙂👍</center>"
 
@@ -22,9 +22,14 @@ url = "/about"
 weight = 2
 
 [[menu.primary]]
-name = "Subscribe"
-url = "https://www.youtube.com/channel/UCtW2DfcLBqNRX5Ih3LF8GHw"
+name = "GitHub"
+url = "https://www.github.com/thekamboy"
 weight = 3
+
+[[menu.primary]]
+name = "Subscribe to YT"
+url = "https://www.youtube.com/channel/UCtW2DfcLBqNRX5Ih3LF8GHw"
+weight = 4
 
 [markup]
   [markup.goldmark]
