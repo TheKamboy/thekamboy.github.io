@@ -7,7 +7,17 @@
     <description>Recent content on KamboyDev&#39;s Cool Website</description>
     
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Jul 2024 18:01:54 -0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Jul 2024 20:10:02 -0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows Is Trash</title>
+      <link>http://localhost:1313/blog/en/windows-is-trash/</link>
+      <category>frustrating</category><pubDate>Thu, 11 Jul 2024 20:10:02 -0700</pubDate>
+      
+      <guid>http://localhost:1313/blog/en/windows-is-trash/</guid>
+      <description>I made the mistake of dual booting Windows, which destroyed the boot partition for Linux. The reason was to play Windows games easier (which is a stupid thought since that is becoming easier in Linux) It took me a bit to get a Linux USB going to repair the boot partition.
+In the process of doing that, Windows died. So I had to use the family pc for making a usb.</description>
+    </item>
+    
     <item>
       <title>What is the Theme for the Website?</title>
       <link>http://localhost:1313/blog/en/what-is-the-theme/</link><pubDate>Sun, 07 Jul 2024 18:01:54 -0700</pubDate>
