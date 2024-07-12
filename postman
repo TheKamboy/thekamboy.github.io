@@ -1,0 +1,42 @@
+#!/bin/bash
+
+shouldquit=false
+
+fileeditor=nvim
+
+locationofpostman=$(pwd)
+
+makenewpost() {
+  filename=$(gum input --header="What will the file name be for the post?")
+
+  hugo new content content/blog/en/$filename.md
+
+  $fileeditor content/blog/en/$filename.md
+}
+
+openpost() {
+  cd content/blog/en
+  file=$(gum file)
+
+  if [ -n "$file" ]; then
+    nvim $file
+  fi
+
+  cd $locationofpostman
+}
+
+mainMenu() {
+  menu=$(gum choose --header="Postman" "Create Post" "Open Post" "Exit")
+
+  if [ "$menu" = "Exit" ]; then
+    shouldquit=true
+  elif [ "$menu" = "Create Post" ]; then
+    makenewpost
+  elif [ "$menu" = "Open Post" ]; then
+    openpost
+  fi
+}
+
+while [ "$shouldquit" = false ]; do
+  mainMenu
+done
