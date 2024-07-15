@@ -957,7 +957,7 @@ ul li {
 }
 
 
-.btn-info    { background-color: #2196F3; }
+.btn-info    { backgroun-color: #2196F3; }
 .btn-warning { background-color: #ff9800; }
 .btn-success { background-color: #4CAF50; }
 .btn-danger  { background-color: #f44336; }
@@ -1021,3 +1021,25 @@ aside > p {
     margin: .5rem;
 }
 
+/* Button CSS */
+a.markdown-btn {
+  font-size: inherit;
+  font-family: inherit;
+  color: #d3c6aa;
+  background-color: #374145;
+  border-radius: 6px;
+  text-align: center;
+  padding: 5px 1em 5px 1em;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+  &:hover,
+  &:active {
+    text-decoration: underline;
+    background-color: #384b55;
+    color: #7fbbb3;
+  }
+}
