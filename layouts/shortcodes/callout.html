@@ -1,3 +1,5 @@
+<!-- Callout code by @mr-islam on GitHub -->
+
 <style>
   #callout {
     background: #2e383c;
@@ -12,7 +14,7 @@
   }
   @media (max-width: 767px) {
     #callout {
-    padding: 1.5em 0.75em 1.5em 0.6em;
+      padding: 1.5em 0.75em 1.5em 0.6em;
     }
     #callout-inner {
       margin-left: 0.5em;
@@ -21,7 +23,5 @@
 </style>
 <div id="callout" style="">
   <div>{{ .Get "emoji" }}</div>
-	<div id="callout-inner">
-    {{ .Get "text" }}
-  </div>
+  <div id="callout-inner">{{ .Get "text" }}</div>
 </div>
