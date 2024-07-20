@@ -9,9 +9,11 @@ locationofpostman=$(pwd)
 makenewpost() {
   filename=$(gum input --header="What will the file name be for the post?")
 
-  hugo new content content/blog/en/$filename.md
+  if [ -n "$filename" ]; then
+    hugo new content content/blog/en/$filename.md
 
-  $fileeditor content/blog/en/$filename.md
+    $fileeditor content/blog/en/$filename.md
+  fi
 }
 
 openpost() {

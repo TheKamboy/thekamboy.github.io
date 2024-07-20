@@ -7,7 +7,15 @@
     <description>Recent content in Categories on Kamboy Dev&#39;s Cool Website</description>
     
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Jul 2024 14:10:18 -0700</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Jul 2024 21:43:56 -0700</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Website</title>
+      <link>http://localhost:1313/categories/website/</link><pubDate>Sun, 14 Jul 2024 21:43:56 -0700</pubDate>
+      
+      <guid>http://localhost:1313/categories/website/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Games</title>
       <link>http://localhost:1313/categories/games/</link><pubDate>Fri, 12 Jul 2024 14:10:18 -0700</pubDate>
