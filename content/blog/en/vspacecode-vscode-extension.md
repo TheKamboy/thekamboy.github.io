@@ -5,7 +5,7 @@ draft = false
 categories = ["me"]
 +++
 
-{{< callout emoji="🛈" text="This is not an ad. I just like this extension." >}}
+{{< callout emoji="ℹ️" text="This is not an ad. I just like this extension." >}}
 
 My favorite VSCode extension is [VSpaceCode](https://vspacecode.github.io/). It is the closest thing to make VSCode more like Emacs and evil-mode.
 
