@@ -1,7 +1,7 @@
 +++
 title = 'My favorite VSCode Extension'
 date = 2024-07-22T12:02:07-07:00
-draft = true
+draft = false
 categories = ["me"]
 +++
 
