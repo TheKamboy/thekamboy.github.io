@@ -32,7 +32,10 @@ url = "https://www.youtube.com/channel/UCtW2DfcLBqNRX5Ih3LF8GHw"
 weight = 4
 
 [markup]
+  defaultMarkdownHandler = "goldmark"
   [markup.goldmark]
+    [Extensions]
+      footnote = true
     [markup.goldmark.parser]
       wrapStandAloneImageWithinParagraph = false
       [markup.goldmark.parser.attribute]
