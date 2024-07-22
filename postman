@@ -6,13 +6,17 @@ fileeditor=nvim
 
 locationofpostman=$(pwd)
 
+newpostarg=false
+
 makenewpost() {
   filename=$(gum input --header="What will the file name be for the post?")
 
   if [ -n "$filename" ]; then
     hugo new content content/blog/en/$filename.md
 
-    $fileeditor content/blog/en/$filename.md
+    if [ "$newpostarg" = false ]; then
+      $fileeditor content/blog/en/$filename.md
+    fi
   fi
 }
 
@@ -50,6 +54,20 @@ mainMenu() {
     lazygit
   fi
 }
+
+idk=false
+
+while getopts n: flag
+do
+    case "${flag}" in
+        n) newpostarg=${OPTARG};;
+    esac
+done
+
+if [ "$newpostarg" = true ]; then
+  makenewpost
+  exit
+fi
 
 while [ "$shouldquit" = false ]; do
   mainMenu
