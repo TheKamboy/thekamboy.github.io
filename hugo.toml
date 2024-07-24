@@ -10,6 +10,7 @@ defaultList = "global"
 paginationLen = 4
 projectsURL = "https://github.com/TheKamboy"
 brief_about = "<center>Projects? Programming? You know it! 🙂👍</center>"
+faviconfile = "favicon.ico"
 
 [[menu.primary]]
 name = "Home"
