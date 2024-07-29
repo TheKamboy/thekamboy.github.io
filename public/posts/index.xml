@@ -12,8 +12,15 @@
     <generator>Hugo -- 0.130.0</generator>
     <language>en</language>
     <copyright>KamFurDev</copyright>
-    <lastBuildDate>Sun, 28 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jul 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Abrakheim</title>
+      <link>http://localhost:1313/posts/abrakheim/</link>
+      <pubDate>Mon, 29 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/abrakheim/</guid>
+      <description>Abrakheim </description>
+    </item>
     <item>
       <title>Website Update</title>
       <link>http://localhost:1313/posts/website-update/</link>
@@ -84,13 +91,6 @@ Also, I updated the site a bit more to remove placeholder text from the theme I 
 Second Heading Third Fourth Some style testing.
 bro notch needs to get on this asap how am i supposed to play my infinite lego game
 Some guy in the Modern Beta SMP Discord Server First item Second item Third item First item Second item Third item code</description>
-    </item>
-    <item>
-      <title>Abrakheim</title>
-      <link>http://localhost:1313/posts/abrakheim/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/abrakheim/</guid>
-      <description>DONE Abrakheim </description>
     </item>
   </channel>
 </rss>
