@@ -1,6 +1,4 @@
-# My Website
-I basically post things about my projects, and other things.
+# What happened?
 
-I will also post about life, maybe.
-
-If there is any issues with the website, feel free to make an issue.
+Nothing happened to me, I'm just updating the website to something that will work better (still using hugo tho)
+I saved the blog files so no worry about old content being gone
