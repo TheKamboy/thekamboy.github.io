@@ -1,5 +1,7 @@
 #+title: Abrakheim
 #+hugo_base_dir: ../
+#+date:<2024-07-29 Mon>
+#+hugo_draft: false
 
 * Abrakheim
 [[/images/abrakheim.png]]
