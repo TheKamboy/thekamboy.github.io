@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Frustrating on KamFurDev&#39;s Cool Website</title>
+    <link>http://localhost:1313/tags/frustrating/</link>
+    <description>Recent content in Frustrating on KamFurDev&#39;s Cool Website</description>
+    <image>
+      <title>KamFurDev&#39;s Cool Website</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>en</language>
+    <copyright>KamFurDev</copyright>
+    <lastBuildDate>Thu, 11 Jul 2024 20:10:02 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/frustrating/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows Is Trash</title>
+      <link>http://localhost:1313/posts/oldposts/windows-is-trash/</link>
+      <pubDate>Thu, 11 Jul 2024 20:10:02 -0700</pubDate>
+      <guid>http://localhost:1313/posts/oldposts/windows-is-trash/</guid>
+      <description>I made the mistake of dual booting Windows, which destroyed the boot partition for Linux. The reason was to play Windows games easier (which is a stupid thought since that is becoming easier in Linux) It took me a bit to get a Linux USB going to repair the boot partition.
+In the process of doing that, Windows died. So I had to use the family pc for making a usb.</description>
+    </item>
+  </channel>
+</rss>

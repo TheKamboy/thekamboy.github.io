@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>KamFurDev&#39;s Cool Website</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on KamFurDev&#39;s Cool Website</description>
+    <image>
+      <title>KamFurDev&#39;s Cool Website</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>en</language>
+    <copyright>KamFurDev</copyright>
+    <lastBuildDate>Sun, 28 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Website Update</title>
+      <link>http://localhost:1313/posts/website-update/</link>
+      <pubDate>Sun, 28 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/website-update/</guid>
+      <description>You have probably noticed that the website got a HUGE update.
+Well, I switched to using the PaperMod theme.
+You can still view the old posts, as I had archived them.
+The main reason to do this was so I could use Org Mode1, which ox-hugo2 uses PaperMod3 as a template for it. PaperMod3 looks way nicer than the theme I used before.
+Since I currently am using the Tokyo Night4 theme, I might update the CSS of the website to have the Tokyo Night4 theme as the website theme.</description>
+    </item>
+    <item>
+      <title>My favorite VSCode Extension</title>
+      <link>http://localhost:1313/posts/oldposts/vspacecode-vscode-extension/</link>
+      <pubDate>Mon, 22 Jul 2024 12:02:07 -0700</pubDate>
+      <guid>http://localhost:1313/posts/oldposts/vspacecode-vscode-extension/</guid>
+      <description>ℹ️ This is not an ad. I just like this extension. My favorite VSCode extension is VSpaceCode. It is the closest thing to make VSCode more like Emacs and evil-mode.
+It has Which Key, which will, show you what key to press in its menu (which you call with space while in NORMAL mode) to do a certain action.
+It also has a Magit Clone, which Magit is the best keyboard based Git Manager.</description>
+    </item>
+    <item>
+      <title>Buttons!</title>
+      <link>http://localhost:1313/posts/oldposts/buttons/</link>
+      <pubDate>Sun, 14 Jul 2024 21:43:56 -0700</pubDate>
+      <guid>http://localhost:1313/posts/oldposts/buttons/</guid>
+      <description>Click me to go home. Thanks to Nelis Oostens for the code!</description>
+    </item>
+    <item>
+      <title>Insert Randomness Update!</title>
+      <link>http://localhost:1313/posts/oldposts/insert-randomness-update/</link>
+      <pubDate>Fri, 12 Jul 2024 14:10:18 -0700</pubDate>
+      <guid>http://localhost:1313/posts/oldposts/insert-randomness-update/</guid>
+      <description>After a long break from making games, I&amp;rsquo;m working on games again! This was a project I was wanting to work on.
+The name Insert Randomness may seem stupid, but it&amp;rsquo;s to show that the game has a lot of random things going on in it.
+What this game will include: ℹ️ This is subject to change. A (hopefully not bad) story Weird Characters Text based graphics Being On All PC Platforms (Windows, Mac, Linux) Here is a link to the GitHub Page, but it&amp;rsquo;s in it&amp;rsquo;s early stages.</description>
+    </item>
+    <item>
+      <title>Windows Is Trash</title>
+      <link>http://localhost:1313/posts/oldposts/windows-is-trash/</link>
+      <pubDate>Thu, 11 Jul 2024 20:10:02 -0700</pubDate>
+      <guid>http://localhost:1313/posts/oldposts/windows-is-trash/</guid>
+      <description>I made the mistake of dual booting Windows, which destroyed the boot partition for Linux. The reason was to play Windows games easier (which is a stupid thought since that is becoming easier in Linux) It took me a bit to get a Linux USB going to repair the boot partition.
+In the process of doing that, Windows died. So I had to use the family pc for making a usb.</description>
+    </item>
+    <item>
+      <title>What is the Theme for the Website?</title>
+      <link>http://localhost:1313/posts/oldposts/what-is-the-theme/</link>
+      <pubDate>Sun, 07 Jul 2024 18:01:54 -0700</pubDate>
+      <guid>http://localhost:1313/posts/oldposts/what-is-the-theme/</guid>
+      <description>The theme I&amp;rsquo;m using for the website is Everforest Dark, which is a Neovim theme.
+This was before the website update
+Not much else to say. Have a good day!</description>
+    </item>
+    <item>
+      <title>Fixed About Link</title>
+      <link>http://localhost:1313/posts/oldposts/fixed-about-link/</link>
+      <pubDate>Sun, 07 Jul 2024 12:27:38 -0700</pubDate>
+      <guid>http://localhost:1313/posts/oldposts/fixed-about-link/</guid>
+      <description>You should be able to click the About link now.
+Also, I updated the site a bit more to remove placeholder text from the theme I used for the website.</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/oldposts/my-first-post/</link>
+      <pubDate>Sat, 06 Jul 2024 20:07:45 -0700</pubDate>
+      <guid>http://localhost:1313/posts/oldposts/my-first-post/</guid>
+      <description>Welcome to my Website! I will be posting about my projects, and other things. This first post will serve as a test of how markdown is displayed on the website (so I can fix CSS issues).
+Second Heading Third Fourth Some style testing.
+bro notch needs to get on this asap how am i supposed to play my infinite lego game
+Some guy in the Modern Beta SMP Discord Server First item Second item Third item First item Second item Third item code</description>
+    </item>
+  </channel>
+</rss>

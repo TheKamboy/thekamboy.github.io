@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Me on KamFurDev&#39;s Cool Website</title>
+    <link>http://localhost:1313/categories/me/</link>
+    <description>Recent content in Me on KamFurDev&#39;s Cool Website</description>
+    <image>
+      <title>KamFurDev&#39;s Cool Website</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>en</language>
+    <copyright>KamFurDev</copyright>
+    <lastBuildDate>Mon, 22 Jul 2024 12:02:07 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My favorite VSCode Extension</title>
+      <link>http://localhost:1313/posts/oldposts/vspacecode-vscode-extension/</link>
+      <pubDate>Mon, 22 Jul 2024 12:02:07 -0700</pubDate>
+      <guid>http://localhost:1313/posts/oldposts/vspacecode-vscode-extension/</guid>
+      <description>ℹ️ This is not an ad. I just like this extension. My favorite VSCode extension is VSpaceCode. It is the closest thing to make VSCode more like Emacs and evil-mode.
+It has Which Key, which will, show you what key to press in its menu (which you call with space while in NORMAL mode) to do a certain action.
+It also has a Magit Clone, which Magit is the best keyboard based Git Manager.</description>
+    </item>
+  </channel>
+</rss>
