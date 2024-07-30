@@ -25,31 +25,14 @@ iframe {
 }
 
 @font-face {
-  font-family: "Space Mono", monospace;
-  font-weight: 400;
+  font-family: "Victor Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
   font-style: normal;
-}
-
-@font-face {
-  font-family: "Space Mono", monospace;
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Space Mono", monospace;
-  font-weight: 400;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Space Mono", monospace;
-  font-weight: 700;
-  font-style: italic;
 }
 
 code {
-  font-family: "Space Mono", monospace;
+  font-family: "Victor Mono", monospace;
 }
 
 body {
