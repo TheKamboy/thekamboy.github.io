@@ -1,0 +1,4 @@
+#+title: Template
+#+hugo_base_dir: ../
+#+date:
+#+hugo_draft: true
