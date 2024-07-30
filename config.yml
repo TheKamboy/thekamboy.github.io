@@ -21,6 +21,8 @@ module:
     target: static
   - source: images
     target: static/images
+  - source: fonts
+    target: static/fonts
 
 minify:
   disableXML: true
