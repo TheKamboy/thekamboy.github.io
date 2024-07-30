@@ -17,12 +17,12 @@ mainsections: ["posts"]
 
 module:
   mounts:
-  - source: static
-    target: static
-  - source: images
-    target: static/images
-  - source: fonts
-    target: static/fonts
+    - source: static
+      target: static
+    - source: images
+      target: static/images
+    - source: fonts
+      target: static/fonts
 
 minify:
   disableXML: true
@@ -157,7 +157,6 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
-
 # privacy:
 #   vimeo:
 #     disabled: false

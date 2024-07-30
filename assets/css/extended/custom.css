@@ -15,3 +15,43 @@ iframe {
 .entry-cover img {
   border: 1px solid var(--border);
 }
+
+/* font shit */
+@font-face {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+code {
+  font-family: "Space Mono", monospace;
+}
+
+body {
+  font-family: "Space Grotesk";
+}
