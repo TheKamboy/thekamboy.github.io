@@ -9,11 +9,20 @@
       <url>http://localhost:1313/images/papermod-cover.png</url>
       <link>http://localhost:1313/images/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- 0.130.0</generator>
+    <generator>Hugo -- 0.131.0</generator>
     <language>en</language>
     <copyright>KamFurDev</copyright>
-    <lastBuildDate>Mon, 29 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jul 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Doom Emacs is a Cool Emacs Config</title>
+      <link>http://localhost:1313/posts/doom-emacs-is-cool/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/doom-emacs-is-cool/</guid>
+      <description>Introduction to Emacs GNU Emacs is an open source, customizable graphical text editor with different modes1. GNU Emacs is usually just called Emacs, which is what I will call it from now on.
+Orgins It was originally a Terminal application, but it was different than other text editors from the time since it had a User Interface.
+Differences Some people may think that Emacs is a graphical clone of Vim, but that&amp;rsquo;s actually a plugin that makes it more like Vim (more on that later).</description>
+    </item>
     <item>
       <title>Abrakheim</title>
       <link>http://localhost:1313/posts/abrakheim/</link>

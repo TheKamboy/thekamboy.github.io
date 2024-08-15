@@ -1,0 +1,13 @@
+#+title: Moving to Codeberg
+#+hugo_base_dir: ../
+#+date:<2024-08-14 Wed>
+#+hugo_draft: true
+
+I'm moving the website to Codeberg.
+
+I may move my projects there too.
+
+* Why am I?
+The recent Github shutdown reminded me that Github isn't as stable as other projects. Also, Codeberg has more privacy (and won't use my code for AI). That's why I'm moving.
+
+[[https://kamfurdev.codeberg.page][Here's the link to the new website.]]
